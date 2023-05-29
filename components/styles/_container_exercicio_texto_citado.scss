@@ -1,0 +1,80 @@
+.container_exercicio_texto_citado {
+  border: 1.5px solid #BBBBBB;
+  border-radius: 4px;
+  padding: 8px 32px 16px 32px;
+  margin: 24px 0px 40px 32px;
+  clear: both;
+  display: block;
+  &::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+  > * {
+      &:first-child {
+          margin-top: 0;
+          &._left {
+              + ._right {
+                  margin-top: 0;
+              }
+          }
+          &._right {
+              + ._left {
+                  margin-top: 0;
+              }
+          }
+      }
+      &:last-child {
+          margin-bottom: 0;
+      }
+      &._left {
+          + ._right:last-child {
+              margin-bottom: 20px;
+          }
+      }
+      &._right {
+          + ._left:last-child {
+              margin-bottom: 20px;
+          }
+      }
+  }
+
+  .box_green{
+    width: 93.5%;
+    height: 23px;
+    position: relative;
+    display: flex;
+    top: 18px;
+    left: 16px;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 32px 0px;
+    border-bottom: solid 2px #000000;
+    border-left: solid 6px #999999;
+    text-decoration: overline;
+    font-family: $font-montserrat-extrabold;
+    font-size: 16px;
+    color: #000000;
+    
+    &:before {
+      content: '';
+      display: block;
+    }
+  }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+      &._left {
+          float: left;
+          clear: left;
+          width: 50%;
+          z-index: 1;
+      }
+      &._right {
+          float: right;
+          clear: right;
+          width: 50%;
+          z-index: 1;
+
+      }
+  }
+}

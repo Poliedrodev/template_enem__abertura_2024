@@ -1,0 +1,39 @@
+.css_99_bancoquestao {
+  font-family: $fontName;
+  font-weight: 400;
+  color: rgb(42, 111, 214);
+  line-height: 1.5em;
+  font-size: 12px;
+  width: 500px;
+  top: -14px;
+}
+
+.css_99_bancoquestao:empty {
+  position: relative;
+
+  &::after {
+    content: 'METADADO';
+    color: #fff;
+    height: 16px;
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(42, 111, 214);
+  }
+}
+
+._BNCC_em_foco {
+  .css_03_exercicio_container_edit {
+    margin-top: 50px;
+
+    .css_99_bancoquestao {
+      top: -49px;
+    }
+    .css_99_bancoquestao:empty::after{
+      top: 1px;
+    }
+  }
+}
+
+.css_03_exercicio_container_edit .css_99_bancoquestao{
+  position: absolute;
+}

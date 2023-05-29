@@ -1,0 +1,26 @@
+.trigger_popup {
+    width: 100px;
+    height: 100px;
+    background-image: url('img/iniciar_por.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 69px;
+    cursor: pointer;
+
+    &.artes {
+        background-image: url('img/iniciar_lin.png');
+    }
+
+    &.lingua_inglesa {
+        background-image: url('img/play_ing.png');
+    }
+
+    &.lingua_portuguesa {
+        background-image: url('img/iniciar_por.png');
+    }
+
+      &.matematica {
+        background-image: url('img/iniciar_mat.png');
+    }
+}

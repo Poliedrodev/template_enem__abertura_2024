@@ -1,0 +1,143 @@
+/* Image component style */
+.image_popup {
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+    float: left;
+    transition: all .3s;
+    
+    &.__ready {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+        position: absolute;
+        left: -99999px;
+    }
+    
+    &.popup_actived {
+        font-family: 'Barlow Condensed';
+        font-weight: 700;
+        text-transform: uppercase;
+        position: fixed;
+        margin: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000000bf;
+        visibility: visible;
+        transition-delay: 0s;
+        z-index: 999;
+        opacity: 1;
+        
+        .image_popup__content {
+            height: 100%;
+            
+            .image_popup__img {
+                display: inline-table !important;
+                width: 100%;
+                height: 100% !important;
+                position: relative;
+                
+                .image_popup__text {
+                    font-family: 'Barlow Condensed';
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin: 200px 72px 0px 72px;
+                    width: 95%;
+                    color: $seg_lin_cor1;
+                    font-size: 50px;
+                    position: initial;
+                    &.artes {
+                        color: $seg_lin_cor1;
+                        }
+                    
+                    &.lingua_inglesa {
+                        color: $seg_lin_cor1;
+                        }
+                    
+                    &.lingua_portuguesa {
+                        color: $seg_lin_cor1;
+                        }
+                    
+                     &.matematica {
+                        color: $seg_mat_cor1;
+                }
+                }
+                .image_popup__text2 {
+                    font-family: 'Barlow Condensed';
+                    font-weight: 700;
+                        margin: 72px 72px 0px 72px;
+                    width: 95%;
+                    color: #ffffff;
+                    font-size: 72px;
+                    position: relative;
+                }
+            }
+        }
+    }
+    
+    .image_popup__content {
+        a {
+            font-family: 'Barlow Condensed';
+            font-weight: 700;
+        width: 25px;
+            height: 25px;
+            display: block;
+            background-image: url('img/btn-modal-close.png');
+            position: absolute;
+            z-index: 9;
+            right: 20px;
+            top: 15px;
+        }
+        
+        .image_popup__img {
+            position: relative;
+            width: 500px;
+            opacity: 90%;
+            height: 100px !important;
+            padding: 0 !important;
+            background-position: center center !important;
+            background-size: cover;
+            overflow: inherit !important;
+            
+            .image_popup__text {
+                font-size: 20px;
+                font-family: 'Barlow Condensed';
+                font-weight: 700;
+                color: $seg_lin_cor1;
+                width: 100%;
+                text-transform: uppercase;
+                box-sizing: border-box;
+                position: absolute;
+                top: -50px;
+
+                &.artes {
+                    color: $seg_lin_cor1;
+                    }
+                
+                &.lingua_inglesa {
+                    color: $seg_lin_cor1;
+                    }
+                
+                &.lingua_portuguesa {
+                    color: $seg_lin_cor1;
+                    }
+                
+                 &.matematica {
+                    color: $seg_mat_cor1;
+            }
+            .image_popup__text2 {
+                font-family: 'Barlow Condensed';
+                font-size: 18px;
+                font-weight: 700;
+                color: #ffffff;
+                width: 100%;
+                text-transform: uppercase;
+                box-sizing: border-box;
+                position: absolute;
+                top: 90px;
+                }
+            }
+        }
+    }
+}

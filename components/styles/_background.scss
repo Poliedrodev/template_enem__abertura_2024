@@ -1,0 +1,51 @@
+.body-book {
+  &.artes {
+    background-color: $art_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  &.lingua_inglesa {
+    background-color: $ing_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  &.lingua_portuguesa {
+    background-color: $seg_por_cor1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  &.matematica {
+    background-color: $seg_mat_cor9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  
+  &.linguagens {
+    background-color: $seg_lin_cor7;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  &.ciencias_natureza {
+    background-color: $seg_cnz_cor6;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  &.ciencias_humanas {
+    background-color: $seg_cnh_cor6;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+}

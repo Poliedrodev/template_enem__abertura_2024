@@ -1,0 +1,133 @@
+/* Modal */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 160px;
+  left: 0px;
+  display: none;
+  z-index: 11;
+
+}
+
+
+.checkbox-modal {
+  display: none;
+}
+
+#modalInitial:checked+.modal {
+  display: block;
+}
+
+.open-modal {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_por.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  display: flex;
+  float: inherit;
+  margin-top: 16px;
+
+  &.artes {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_lin.png);
+
+    .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_lin_qd.png);
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_por.png);
+
+  }
+
+  &.lingua_inglesa {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/play_ing.png);
+
+    .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_ing_qd.png);
+    }
+  }
+
+  &.matematica {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_mat.png);
+
+    .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_mat_qd.png);
+    }
+  }
+}
+
+.modal .close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal .close-modal:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.modal .content-modal {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_por_qd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 20;
+}
+
+.close-modal {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  width: 25px;
+  height: 25px;
+  background-image: url("https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/btn-modal-close.png");
+  display: block;
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.image_modal {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 90%;
+  padding: 0;
+  overflow: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 72px;
+}
+
+.image_modal__text {
+  margin: 0;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 95%;
+  color: #bfd730;
+  font-size: 50px;
+  position: initial;
+  z-index: 25;
+}
+
+.image_modal__text2 {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  width: 95%;
+  color: #ffffff;
+  font-size: 72px;
+  position: relative;
+  z-index: 25;
+
+}

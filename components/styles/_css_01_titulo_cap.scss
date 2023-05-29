@@ -1,0 +1,97 @@
+.css_01_titulo_cap {
+  display: block;
+  position: relative;
+
+  &.artes {
+    .line {
+      background-color: $seg_lin_cor1;
+    }
+
+    .text {
+      color: $art_cor2;
+    }
+
+  }
+
+  &.lingua_inglesa {
+    .line {
+      background-color: $seg_lin_cor1;
+    }
+
+    .text {
+      color: $ing_cor2;
+    }
+  }
+
+  &.lingua_portuguesa {
+    .line {
+      background-color: $seg_lin_cor1;
+    }
+
+    .text {
+      color: $por_cor2;
+    }
+  }
+
+  &.matematica {
+    .line {
+      background-color: $seg_mat_cor1;
+    }
+
+    .text {
+      color: $mat_cor2;
+    }
+  }
+
+  &.linguagens {
+    .line {
+      background-color: $ling_cor3;
+    }
+
+    .text {
+      color: $ling_cor1;
+    }
+  }
+
+  &.ciencias_natureza {
+    .line {
+      background-color: $cnz_cor3;
+    }
+
+    .text {
+      color: $cnz_cor2;
+    }
+  }
+
+  &.ciencias_humanas {
+    .line {
+      background-color: $cnh_cor3;
+    }
+
+    .text {
+      color: $cnh_cor2;
+    }
+  }
+
+  .line {
+    width: 215px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -25px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .text {
+
+    color: $title-color;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1em;
+    font-size: 92px;
+    margin: 0px;
+    padding: 0px 0px 16px 0px;
+
+  }
+}
