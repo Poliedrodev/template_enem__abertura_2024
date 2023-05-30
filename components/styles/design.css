@@ -3473,6 +3473,127 @@ blockquote {
         width: 50%;
         z-index: 1; } }
 
+.primeira_pagina {
+  padding: 0px;
+  margin: 16px 0px 16px;
+  clear: both;
+  display: block;
+  float: left;
+  /* media query */ }
+  .primeira_pagina::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .primeira_pagina.leftDe {
+    float: left; }
+  .primeira_pagina.rightDe {
+    float: right; }
+    .primeira_pagina.rightDe .text-read2 {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-right: none;
+      border-left: 1px solid #dddddd; }
+  .primeira_pagina .text-read2 {
+    font-size: 12px;
+    color: #000000;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #f4f4f4;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd; }
+  .primeira_pagina > *:first-child {
+    margin-top: 0; }
+    .primeira_pagina > *:first-child._left + ._right {
+      margin-top: 0; }
+    .primeira_pagina > *:first-child._right + ._left {
+      margin-top: 0; }
+  .primeira_pagina > *:last-child {
+    margin-bottom: 0; }
+  .primeira_pagina > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .primeira_pagina > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .primeira_pagina._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .primeira_pagina._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.marcador_pagina {
+  padding: 0px;
+  margin: 16px 0px 16px;
+  clear: both;
+  display: flex;
+  justify-content: flex-end;
+  /* media query */ }
+  .marcador_pagina::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .marcador_pagina.leftDe {
+    justify-content: flex-start; }
+    .marcador_pagina.leftDe .text-read2 {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-right: 1px solid #dddddd;
+      border-left: none; }
+  .marcador_pagina.rightDe {
+    justify-content: flex-end; }
+  .marcador_pagina .text-read2 {
+    font-size: 12px;
+    color: #000000;
+    width: 30px;
+    text-align: center;
+    padding: 15px 0px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #f4f4f4;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: none;
+    border-bottom: 1px solid #dddddd; }
+  .marcador_pagina > *:first-child {
+    margin-top: 0; }
+    .marcador_pagina > *:first-child._left + ._right {
+      margin-top: 0; }
+    .marcador_pagina > *:first-child._right + ._left {
+      margin-top: 0; }
+  .marcador_pagina > *:last-child {
+    margin-bottom: 0; }
+  .marcador_pagina > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .marcador_pagina > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .marcador_pagina._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .marcador_pagina._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .separator {
   margin: 0;
   padding: 0;

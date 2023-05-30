@@ -886,6 +886,30 @@
       ]
     },
     {
+      "name": "primeira_pagina",
+      "icon": "icons/components/container.svg",
+      "label": "Primeira Página",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        "alinhamento"
+      ]
+    },   
+    {
+      "name": "marcador_pagina",
+      "icon": "icons/components/container.svg",
+      "label": "Macador de Página",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        "alinhamento"
+      ]
+    },
+    {
       "name": "separator",
       "icon": "icons/components/separator.svg",
       "label": {
@@ -3760,7 +3784,9 @@
         "trigger_popup2",
         "container_fica_a_dica_lumen_mais",
         "container_repertorio_cultural_lumen_mais",
-        "container_saiba_mais_lumen_mais"
+        "container_saiba_mais_lumen_mais",
+        "primeira_pagina",
+        "marcador_pagina"
       ]
     },
     {
@@ -4089,6 +4115,43 @@
       "dataType": "inlineStyles",
       "featureFlag": "ContentStation-LocalStyleOverrides"
     },
+
+    {
+      "name": "alinhamento",
+      "label": {
+        "key": "Alinhamento"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Esquerda"
+              }
+            },
+            "value": "leftDe"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Direita"
+              }
+            },
+            "value": "rightDe"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    
     {
       "name": "inside-caption",
       "label": {
