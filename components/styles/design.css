@@ -5022,11 +5022,17 @@ blockquote {
   .css_01_titulo_cap_num.artes {
     color: #B9A9CB; }
   .css_01_titulo_cap_num.lingua_inglesa {
-    color: #8CCDD2; }
+    color: #bfd730; }
   .css_01_titulo_cap_num.lingua_portuguesa {
-    color: #E59798; }
+    color: #bfd730; }
   .css_01_titulo_cap_num.matematica {
-    color: #97B7D9; }
+    color: #F1CB40; }
+  .css_01_titulo_cap_num.linguagens {
+    color: #bfd730; }
+  .css_01_titulo_cap_num.ciencias_natureza {
+    color: #f9a64a; }
+  .css_01_titulo_cap_num.ciencias_humanas {
+    color: #7fcaad; }
 
 .css_01_titulo_chap_num {
   color: #E59798;
@@ -5041,11 +5047,17 @@ blockquote {
   .css_01_titulo_chap_num.artes {
     color: #B9A9CB; }
   .css_01_titulo_chap_num.lingua_inglesa {
-    color: #8CCDD2; }
+    color: #bfd730; }
   .css_01_titulo_chap_num.lingua_portuguesa {
-    color: #E59798; }
+    color: #bfd730; }
   .css_01_titulo_chap_num.matematica {
-    color: #97B7D9; }
+    color: #F1CB40; }
+  .css_01_titulo_chap_num.linguagens {
+    color: #bfd730; }
+  .css_01_titulo_chap_num.ciencias_natureza {
+    color: #f9a64a; }
+  .css_01_titulo_chap_num.ciencias_humanas {
+    color: #7fcaad; }
 
 .css_01_titulo1 {
   display: block;

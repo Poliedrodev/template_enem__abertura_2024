@@ -4226,15 +4226,6 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "artes"
-              }
-            },
-            "value": "artes"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "lingua_inglesa"
               }
             },

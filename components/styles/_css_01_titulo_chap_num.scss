@@ -14,14 +14,26 @@
   }
 
   &.lingua_inglesa {
-    color: $ing_cor3;
+    color: $seg_lin_cor1;
   }
 
   &.lingua_portuguesa {
-    color: $por_cor3;
+    color: $seg_lin_cor1;
   }
 
   &.matematica {
-    color: $mat_cor3;
+    color: $seg_mat_cor1;
+  }
+
+  &.linguagens {
+    color: $seg_lin_cor1;
+  }
+
+  &.ciencias_natureza {
+    color: $cnz_cor3;
+  }
+
+  &.ciencias_humanas {
+    color: $cnh_cor3;
   }
 }
