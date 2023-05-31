@@ -3478,7 +3478,7 @@ blockquote {
   margin: 16px 0px 16px;
   clear: both;
   display: block;
-  float: left;
+  float: right;
   /* media query */ }
   .primeira_pagina::after {
     content: '';
@@ -3486,15 +3486,15 @@ blockquote {
     clear: both; }
   .primeira_pagina.leftDe {
     float: left; }
+    .primeira_pagina.leftDe .text-read2 {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-left: none;
+      border-right: 1px solid #dddddd; }
   .primeira_pagina.rightDe {
     float: right; }
-    .primeira_pagina.rightDe .text-read2 {
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-      border-top-right-radius: 0px;
-      border-bottom-right-radius: 0px;
-      border-right: none;
-      border-left: 1px solid #dddddd; }
   .primeira_pagina .text-read2 {
     font-size: 12px;
     color: #000000;
@@ -3504,10 +3504,10 @@ blockquote {
     font-family: montserrat;
     font-weight: 700;
     background-color: #f4f4f4;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     border-top: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd; }
   .primeira_pagina > *:first-child {
     margin-top: 0; }
