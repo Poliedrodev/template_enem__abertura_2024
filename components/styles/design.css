@@ -5355,7 +5355,7 @@ blockquote {
 .css_02_texto_geral {
   display: block;
   color: #000000;
-  font-family: "noticia text", "400";
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 0px 16px 0px;
@@ -5365,14 +5365,14 @@ blockquote {
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "400";
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
   margin: 24px 0px 24px 0px; }
 
 .css_02_texto_geral2 {
   display: block;
   color: #000000;
-  font-family: "noticia text", "400";
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 0px 16px 0px; }
@@ -5382,7 +5382,7 @@ blockquote {
   text-align: center;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "400";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.5em;
   margin: 24px 0px 24px 0px;
@@ -5905,21 +5905,21 @@ blockquote {
 
 .css_04_professor_resposta {
   display: block;
-  font-family: "Pt Sans";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #f5006b;
   margin: 16px; }
 
 .css_04_professor_comentario {
   display: block;
-  font-family: "TheSerif-HP2ExLig";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #f5006b;
   margin: 16px; }
 
 .css_04_professor_roteiro_cd {
   display: block;
-  font-family: "Pt Sans";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #f5006b;
   margin: 16px; }
