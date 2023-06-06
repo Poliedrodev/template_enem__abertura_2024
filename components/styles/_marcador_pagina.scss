@@ -1,92 +1,213 @@
 .marcador_pagina {
-  padding: 0px;
-  margin: 16px 0px 16px;
-  clear: both;
-  display: flex;
-  justify-content: flex-end;
-  &::after {
-      content: '';
-      display: block;
-      clear: both;
-  }
-
-  &.leftDe{
-    justify-content: flex-start;
-
+    padding: 0px;
+    margin: 16px 0px 16px;
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+  
+    &.leftDe{
+      justify-content: flex-start;
+  
+      .text-read2{
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+          border-right: 2px solid #dddddd;
+          border-left: none;
+      }
+    }
+  
+    &.rightDe{
+      justify-content: flex-end;
+  
+    }
+  
     .text-read2{
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-right: 1px solid #dddddd;
-        border-left: none;
+      font-size: 12px;
+      color: $textColor;
+      width: 60px;
+      text-align: center;
+      padding: 5px 0px;
+      font-family: montserrat;
+      font-weight: 700;
+      background-color: #f4f4f4;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-top: 2px solid #dddddd;
+      border-left: 2px solid #dddddd;
+      border-right: none;
+      border-bottom: 2px solid #dddddd;
+    }
+  
+      &.lingua_inglesa {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $ing_cor1; 
+           border-top: 2px solid $ing_cor1;
+           border-left: 2px solid $ing_cor1;
+           border-bottom: 2px solid $ing_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $ing_cor1;
+                  border-left: none;
+              }
+          }
+      }
+      &.lingua_portuguesa {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $por_cor1; 
+           border-top: 2px solid $por_cor1;
+           border-left: 2px solid $por_cor1;
+           border-bottom: 2px solid $por_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $por_cor1;
+                  border-left: none;
+              }
+          }
+      }
+      &.matematica {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $mat_cor1; 
+           border-top: 2px solid $mat_cor1;
+           border-left: 2px solid $mat_cor1;
+           border-bottom: 2px solid $mat_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $mat_cor1;
+                  border-left: none;
+              }
+          }
+      }
+      &.linguagens {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $ling_cor1; 
+           border-top: 2px solid $ling_cor1;
+           border-left: 2px solid $ling_cor1;
+           border-bottom: 2px solid $ling_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $ling_cor1;
+                  border-left: none;
+              }
+          }
+      }
+      &.ciencias_natureza {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $cnz_cor1; 
+           border-top: 2px solid $cnz_cor1;
+           border-left: 2px solid $cnz_cor1;
+           border-bottom: 2px solid $cnz_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $cnz_cor1;
+                  border-left: none;
+              }
+          }
+      }
+      &.ciencias_humanas {
+          .text-read2
+          {
+           background-color: $teoria;
+           color: $cnh_cor1; 
+           border-top: 2px solid $cnh_cor1;
+           border-left: 2px solid $cnh_cor1;
+           border-bottom: 2px solid $cnh_cor1;
+          }
+          &.leftDe{
+              .text-read2{
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  border-top-left-radius: 0px;
+                  border-bottom-left-radius: 0px;
+                  border-right: 2px solid $cnh_cor1;
+                  border-left: none;
+              }
+          }
+      }
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+  /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            z-index: 1;
+  
+        }
     }
   }
-
-  &.rightDe{
-    justify-content: flex-end;
-
-  }
-
-  .text-read2{
-    font-size: 12px;
-    color: $textColor;
-    width: 30px;
-    text-align: center;
-    padding: 15px 0px;
-    font-family: montserrat;
-    font-weight: 700;
-    background-color: #f4f4f4;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-top: 1px solid #dddddd;
-    border-left: 1px solid #dddddd;
-    border-right: none;
-    border-bottom: 1px solid #dddddd;
-  }
-  > * {
-      &:first-child {
-          margin-top: 0;
-          &._left {
-              + ._right {
-                  margin-top: 0;
-              }
-          }
-          &._right {
-              + ._left {
-                  margin-top: 0;
-              }
-          }
-      }
-      &:last-child {
-          margin-bottom: 0;
-      }
-      &._left {
-          + ._right:last-child {
-              margin-bottom: 20px;
-          }
-      }
-      &._right {
-          + ._left:last-child {
-              margin-bottom: 20px;
-          }
-      }
-  }
-  
-/* media query */
-  @media only screen and (min-width: $phone-max-width) {
-      &._left {
-          float: left;
-          clear: left;
-          width: 50%;
-          z-index: 1;
-      }
-      &._right {
-          float: right;
-          clear: right;
-          width: 50%;
-          z-index: 1;
-
-      }
-  }
-}
