@@ -898,7 +898,7 @@
       ]
     },   
     {
-      "name": "marcador_pagina",
+      "name": "css_00_marcador_pagina",
       "icon": "icons/components/container.svg",
       "label": "Macador de Página",
       "properties": [
@@ -3786,7 +3786,7 @@
         "container_repertorio_cultural_lumen_mais",
         "container_saiba_mais_lumen_mais",
         "primeira_pagina",
-        "marcador_pagina"
+        "css_00_marcador_pagina"
       ]
     },
     {

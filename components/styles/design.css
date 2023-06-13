@@ -3533,29 +3533,29 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
-.marcador_pagina {
+.css_00_marcador_pagina {
   padding: 0px;
   margin: 16px 0px 16px;
   clear: both;
   display: flex;
   justify-content: flex-end;
   /* media query */ }
-  .marcador_pagina::after {
+  .css_00_marcador_pagina::after {
     content: '';
     display: block;
     clear: both; }
-  .marcador_pagina.leftDe {
+  .css_00_marcador_pagina.leftDe {
     justify-content: flex-start; }
-    .marcador_pagina.leftDe .text-read2 {
+    .css_00_marcador_pagina.leftDe .text-read2 {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       border-right: 2px solid #dddddd;
       border-left: none; }
-  .marcador_pagina.rightDe {
+  .css_00_marcador_pagina.rightDe {
     justify-content: flex-end; }
-  .marcador_pagina .text-read2 {
+  .css_00_marcador_pagina .text-read2 {
     font-size: 12px;
     color: #000000;
     width: 60px;
@@ -3570,103 +3570,103 @@ blockquote {
     border-left: 2px solid #dddddd;
     border-right: none;
     border-bottom: 2px solid #dddddd; }
-  .marcador_pagina.lingua_inglesa .text-read2 {
+  .css_00_marcador_pagina.lingua_inglesa .text-read2 {
     background-color: #ffffff;
     color: #069891;
     border-top: 2px solid #069891;
     border-left: 2px solid #069891;
     border-bottom: 2px solid #069891; }
-  .marcador_pagina.lingua_inglesa.leftDe .text-read2 {
+  .css_00_marcador_pagina.lingua_inglesa.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #069891;
     border-left: none; }
-  .marcador_pagina.lingua_portuguesa .text-read2 {
+  .css_00_marcador_pagina.lingua_portuguesa .text-read2 {
     background-color: #ffffff;
     color: #c9252c;
     border-top: 2px solid #c9252c;
     border-left: 2px solid #c9252c;
     border-bottom: 2px solid #c9252c; }
-  .marcador_pagina.lingua_portuguesa.leftDe .text-read2 {
+  .css_00_marcador_pagina.lingua_portuguesa.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #c9252c;
     border-left: none; }
-  .marcador_pagina.matematica .text-read2 {
+  .css_00_marcador_pagina.matematica .text-read2 {
     background-color: #ffffff;
     color: #1961AC;
     border-top: 2px solid #1961AC;
     border-left: 2px solid #1961AC;
     border-bottom: 2px solid #1961AC; }
-  .marcador_pagina.matematica.leftDe .text-read2 {
+  .css_00_marcador_pagina.matematica.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #1961AC;
     border-left: none; }
-  .marcador_pagina.linguagens .text-read2 {
+  .css_00_marcador_pagina.linguagens .text-read2 {
     background-color: #ffffff;
     color: #5f4893;
     border-top: 2px solid #5f4893;
     border-left: 2px solid #5f4893;
     border-bottom: 2px solid #5f4893; }
-  .marcador_pagina.linguagens.leftDe .text-read2 {
+  .css_00_marcador_pagina.linguagens.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #5f4893;
     border-left: none; }
-  .marcador_pagina.ciencias_natureza .text-read2 {
+  .css_00_marcador_pagina.ciencias_natureza .text-read2 {
     background-color: #ffffff;
     color: #3d9a48;
     border-top: 2px solid #3d9a48;
     border-left: 2px solid #3d9a48;
     border-bottom: 2px solid #3d9a48; }
-  .marcador_pagina.ciencias_natureza.leftDe .text-read2 {
+  .css_00_marcador_pagina.ciencias_natureza.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #3d9a48;
     border-left: none; }
-  .marcador_pagina.ciencias_humanas .text-read2 {
+  .css_00_marcador_pagina.ciencias_humanas .text-read2 {
     background-color: #ffffff;
     color: #db5c1e;
     border-top: 2px solid #db5c1e;
     border-left: 2px solid #db5c1e;
     border-bottom: 2px solid #db5c1e; }
-  .marcador_pagina.ciencias_humanas.leftDe .text-read2 {
+  .css_00_marcador_pagina.ciencias_humanas.leftDe .text-read2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #db5c1e;
     border-left: none; }
-  .marcador_pagina > *:first-child {
+  .css_00_marcador_pagina > *:first-child {
     margin-top: 0; }
-    .marcador_pagina > *:first-child._left + ._right {
+    .css_00_marcador_pagina > *:first-child._left + ._right {
       margin-top: 0; }
-    .marcador_pagina > *:first-child._right + ._left {
+    .css_00_marcador_pagina > *:first-child._right + ._left {
       margin-top: 0; }
-  .marcador_pagina > *:last-child {
+  .css_00_marcador_pagina > *:last-child {
     margin-bottom: 0; }
-  .marcador_pagina > *._left + ._right:last-child {
+  .css_00_marcador_pagina > *._left + ._right:last-child {
     margin-bottom: 20px; }
-  .marcador_pagina > *._right + ._left:last-child {
+  .css_00_marcador_pagina > *._right + ._left:last-child {
     margin-bottom: 20px; }
   @media only screen and (min-width: 481px) {
-    .marcador_pagina._left {
+    .css_00_marcador_pagina._left {
       float: left;
       clear: left;
       width: 50%;
       z-index: 1; }
-    .marcador_pagina._right {
+    .css_00_marcador_pagina._right {
       float: right;
       clear: right;
       width: 50%;
