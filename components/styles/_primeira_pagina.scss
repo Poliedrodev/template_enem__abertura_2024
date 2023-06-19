@@ -29,9 +29,13 @@
     }
   
     .text-read2{
-      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      line-height: 0px;
+      font-size: 10px;
       color: $textColor;
-      width: 150px;
+      min-width: 150px;
       text-align: center;
       padding: 5px;
       font-family: montserrat;
@@ -43,6 +47,128 @@
       border-left: 1px solid #dddddd;
       border-bottom: 1px solid #dddddd;
     }
+  
+    &.lingua_inglesa {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $ing_cor1; 
+       border-top: 2px solid $ing_cor1;
+       border-left: 2px solid $ing_cor1;
+       border-bottom: 2px solid $ing_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $ing_cor1;
+              border-left: none;
+          }
+      }
+  }
+  &.lingua_portuguesa {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $por_cor1; 
+       border-top: 2px solid $por_cor1;
+       border-left: 2px solid $por_cor1;
+       border-bottom: 2px solid $por_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $por_cor1;
+              border-left: none;
+          }
+      }
+  }
+  &.matematica {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $mat_cor1; 
+       border-top: 2px solid $mat_cor1;
+       border-left: 2px solid $mat_cor1;
+       border-bottom: 2px solid $mat_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $mat_cor1;
+              border-left: none;
+          }
+      }
+  }
+  &.linguagens {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $ling_cor1; 
+       border-top: 2px solid $ling_cor1;
+       border-left: 2px solid $ling_cor1;
+       border-bottom: 2px solid $ling_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $ling_cor1;
+              border-left: none;
+          }
+      }
+  }
+  &.ciencias_natureza {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $cnz_cor1; 
+       border-top: 2px solid $cnz_cor1;
+       border-left: 2px solid $cnz_cor1;
+       border-bottom: 2px solid $cnz_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $cnz_cor1;
+              border-left: none;
+          }
+      }
+  }
+  &.ciencias_humanas {
+      .text-read2
+      {
+       background-color: $teoria;
+       color: $cnh_cor1; 
+       border-top: 2px solid $cnh_cor1;
+       border-left: 2px solid $cnh_cor1;
+       border-bottom: 2px solid $cnh_cor1;
+      }
+      &.leftDe{
+          .text-read2{
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-right: 2px solid $cnh_cor1;
+              border-left: none;
+          }
+      }
+  }
+  
     > * {
         &:first-child {
             margin-top: 0;
@@ -70,8 +196,7 @@
                 margin-bottom: 20px;
             }
         }
-    }
-    
+    }  
   /* media query */
     @media only screen and (min-width: $phone-max-width) {
         &._left {

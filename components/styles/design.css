@@ -3496,9 +3496,13 @@ blockquote {
   .primeira_pagina.rightDe {
     float: right; }
   .primeira_pagina .text-read2 {
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 0px;
+    font-size: 10px;
     color: #000000;
-    width: 150px;
+    min-width: 150px;
     text-align: center;
     padding: 5px;
     font-family: montserrat;
@@ -3509,6 +3513,84 @@ blockquote {
     border-top: 1px solid #dddddd;
     border-left: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd; }
+  .primeira_pagina.lingua_inglesa .text-read2 {
+    background-color: #ffffff;
+    color: #069891;
+    border-top: 2px solid #069891;
+    border-left: 2px solid #069891;
+    border-bottom: 2px solid #069891; }
+  .primeira_pagina.lingua_inglesa.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #069891;
+    border-left: none; }
+  .primeira_pagina.lingua_portuguesa .text-read2 {
+    background-color: #ffffff;
+    color: #c9252c;
+    border-top: 2px solid #c9252c;
+    border-left: 2px solid #c9252c;
+    border-bottom: 2px solid #c9252c; }
+  .primeira_pagina.lingua_portuguesa.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #c9252c;
+    border-left: none; }
+  .primeira_pagina.matematica .text-read2 {
+    background-color: #ffffff;
+    color: #1961AC;
+    border-top: 2px solid #1961AC;
+    border-left: 2px solid #1961AC;
+    border-bottom: 2px solid #1961AC; }
+  .primeira_pagina.matematica.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #1961AC;
+    border-left: none; }
+  .primeira_pagina.linguagens .text-read2 {
+    background-color: #ffffff;
+    color: #5f4893;
+    border-top: 2px solid #5f4893;
+    border-left: 2px solid #5f4893;
+    border-bottom: 2px solid #5f4893; }
+  .primeira_pagina.linguagens.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #5f4893;
+    border-left: none; }
+  .primeira_pagina.ciencias_natureza .text-read2 {
+    background-color: #ffffff;
+    color: #3d9a48;
+    border-top: 2px solid #3d9a48;
+    border-left: 2px solid #3d9a48;
+    border-bottom: 2px solid #3d9a48; }
+  .primeira_pagina.ciencias_natureza.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #3d9a48;
+    border-left: none; }
+  .primeira_pagina.ciencias_humanas .text-read2 {
+    background-color: #ffffff;
+    color: #db5c1e;
+    border-top: 2px solid #db5c1e;
+    border-left: 2px solid #db5c1e;
+    border-bottom: 2px solid #db5c1e; }
+  .primeira_pagina.ciencias_humanas.leftDe .text-read2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-right: 2px solid #db5c1e;
+    border-left: none; }
   .primeira_pagina > *:first-child {
     margin-top: 0; }
     .primeira_pagina > *:first-child._left + ._right {
