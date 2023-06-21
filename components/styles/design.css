@@ -3473,143 +3473,147 @@ blockquote {
         width: 50%;
         z-index: 1; } }
 
-.primeira_pagina {
+.primeira_paginas {
   padding: 0px;
   margin: 16px 0px 16px;
   clear: both;
   display: block;
   float: right;
   /* media query */ }
-  .primeira_pagina::after {
+  .primeira_paginas::after {
     content: '';
     display: block;
     clear: both; }
-  .primeira_pagina.leftDe {
+  .primeira_paginas.leftDe {
     float: left; }
-    .primeira_pagina.leftDe .text-read2 {
+    .primeira_paginas.leftDe .textRead2 {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
       border-left: none;
       border-right: 1px solid #dddddd; }
-  .primeira_pagina.rightDe {
+  .primeira_paginas.rightDe {
     float: right; }
-  .primeira_pagina .text-read2 {
+  .primeira_paginas .textRead2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    line-height: 0px;
-    font-size: 10px;
-    color: #000000;
-    min-width: 150px;
-    text-align: center;
+    min-width: 120px;
     padding: 5px;
-    font-family: montserrat;
-    font-weight: 700;
     background-color: #f4f4f4;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-top: 1px solid #dddddd;
     border-left: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd; }
-  .primeira_pagina.lingua_inglesa .text-read2 {
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box; }
+    .primeira_paginas .textRead2 .sep {
+      font-size: 9px; }
+    .primeira_paginas .textRead2 h2 {
+      font-size: 12px;
+      font-family: montserrat;
+      font-weight: 700;
+      text-align: center;
+      padding: 0px 10px;
+      margin: 0px; }
+  .primeira_paginas.lingua_inglesa .textRead2 {
     background-color: #ffffff;
     color: #069891;
     border-top: 2px solid #069891;
     border-left: 2px solid #069891;
     border-bottom: 2px solid #069891; }
-  .primeira_pagina.lingua_inglesa.leftDe .text-read2 {
+  .primeira_paginas.lingua_inglesa.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #069891;
     border-left: none; }
-  .primeira_pagina.lingua_portuguesa .text-read2 {
+  .primeira_paginas.lingua_portuguesa .textRead2 {
     background-color: #ffffff;
     color: #c9252c;
     border-top: 2px solid #c9252c;
     border-left: 2px solid #c9252c;
     border-bottom: 2px solid #c9252c; }
-  .primeira_pagina.lingua_portuguesa.leftDe .text-read2 {
+  .primeira_paginas.lingua_portuguesa.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #c9252c;
     border-left: none; }
-  .primeira_pagina.matematica .text-read2 {
+  .primeira_paginas.matematica .textRead2 {
     background-color: #ffffff;
     color: #1961AC;
     border-top: 2px solid #1961AC;
     border-left: 2px solid #1961AC;
     border-bottom: 2px solid #1961AC; }
-  .primeira_pagina.matematica.leftDe .text-read2 {
+  .primeira_paginas.matematica.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #1961AC;
     border-left: none; }
-  .primeira_pagina.linguagens .text-read2 {
+  .primeira_paginas.linguagens .textRead2 {
     background-color: #ffffff;
     color: #5f4893;
     border-top: 2px solid #5f4893;
     border-left: 2px solid #5f4893;
     border-bottom: 2px solid #5f4893; }
-  .primeira_pagina.linguagens.leftDe .text-read2 {
+  .primeira_paginas.linguagens.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #5f4893;
     border-left: none; }
-  .primeira_pagina.ciencias_natureza .text-read2 {
+  .primeira_paginas.ciencias_natureza .textRead2 {
     background-color: #ffffff;
     color: #3d9a48;
     border-top: 2px solid #3d9a48;
     border-left: 2px solid #3d9a48;
     border-bottom: 2px solid #3d9a48; }
-  .primeira_pagina.ciencias_natureza.leftDe .text-read2 {
+  .primeira_paginas.ciencias_natureza.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #3d9a48;
     border-left: none; }
-  .primeira_pagina.ciencias_humanas .text-read2 {
+  .primeira_paginas.ciencias_humanas .textRead2 {
     background-color: #ffffff;
     color: #db5c1e;
     border-top: 2px solid #db5c1e;
     border-left: 2px solid #db5c1e;
     border-bottom: 2px solid #db5c1e; }
-  .primeira_pagina.ciencias_humanas.leftDe .text-read2 {
+  .primeira_paginas.ciencias_humanas.leftDe .textRead2 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-right: 2px solid #db5c1e;
     border-left: none; }
-  .primeira_pagina > *:first-child {
+  .primeira_paginas > *:first-child {
     margin-top: 0; }
-    .primeira_pagina > *:first-child._left + ._right {
+    .primeira_paginas > *:first-child._left + ._right {
       margin-top: 0; }
-    .primeira_pagina > *:first-child._right + ._left {
+    .primeira_paginas > *:first-child._right + ._left {
       margin-top: 0; }
-  .primeira_pagina > *:last-child {
+  .primeira_paginas > *:last-child {
     margin-bottom: 0; }
-  .primeira_pagina > *._left + ._right:last-child {
+  .primeira_paginas > *._left + ._right:last-child {
     margin-bottom: 20px; }
-  .primeira_pagina > *._right + ._left:last-child {
+  .primeira_paginas > *._right + ._left:last-child {
     margin-bottom: 20px; }
   @media only screen and (min-width: 481px) {
-    .primeira_pagina._left {
+    .primeira_paginas._left {
       float: left;
       clear: left;
       width: 50%;
       z-index: 1; }
-    .primeira_pagina._right {
+    .primeira_paginas._right {
       float: right;
       clear: right;
       width: 50%;
